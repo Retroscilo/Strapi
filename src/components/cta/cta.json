@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "L",
+        "M",
+        "S"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}
